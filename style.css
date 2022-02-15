@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+
+.container{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.quadratino{
+    width: calc(100%/10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+    border: 2px solid black;
+}
