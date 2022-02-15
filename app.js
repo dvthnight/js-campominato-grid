@@ -47,3 +47,8 @@ buttonPlay.addEventListener("click",function(){
 
 
 })
+
+
+function refresh(){
+    window.location.reload("Refresh")
+  }
