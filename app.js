@@ -38,5 +38,12 @@ buttonPlay.addEventListener("click",function(){
         cella.classList.add("quadratino");
         cella.append(i+1);
         contenitore.append(cella);
+
+        cella.addEventListener("click", function(){
+            cella.classList.add("quad_click");
+        })
     }
+
+
+
 })
