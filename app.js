@@ -28,4 +28,15 @@ buttonPlay.addEventListener("click",function(){
     let griglia = colonna * riga;
 
     console.log(griglia);
+
+    const contenitore = document.querySelector(".container");
+    
+
+    for(let i=0; i<griglia; i++){
+        const cella = document.createElement("div");
+        cella.style.width = `calc(100% / ${colonna})`;
+        cella.classList.add("quadratino");
+        cella.append(i+1);
+        contenitore.append(cella);
+    }
 })
